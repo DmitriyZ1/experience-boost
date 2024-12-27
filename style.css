@@ -32,9 +32,13 @@
     bottom: 0;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .but{
+    height: 60px;
     display: block;
     margin: 0 auto;    
     font-size: 2rem;
@@ -52,4 +56,27 @@
     width: 90%;
     margin: 0 auto;
     margin-bottom: 100px;
+}
+
+.progress{
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    font-size: 1rem;
+}
+
+#scale{
+    margin: 0 10px;
+}
+
+.remove-progress{
+    margin: 0 auto;    
+    font-size: 1rem;
+    padding: 2px;
+    background-color:rgb(255, 123, 123) ;
+    cursor: pointer;
+}
+
+.remove-progress:hover{
+    background-color:rgb(203, 98, 98) ;
 }
